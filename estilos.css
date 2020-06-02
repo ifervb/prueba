@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Times, serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  /* overflow: hidden; */
+  margin:  auto;
+  
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url(./img/portada.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 20px;
+}
+
+.menu a {
+  margin: 15px 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.contenedor-texto-header {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.contenedor-texto-header h1 {
+  color: white;
+
+  font-size: 80px;
+}
+
+.contenedor-texto-header h2 {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  margin-top: 15px;
+}
+
+.linea {
+  background-color: #15a4fa;
+  width: 100%;
+  height: 3px;
+  margin: auto;
+}
+
+.boton {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  border: 1px solid #15a4fa;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.boton:hover {
+  background-color: #15a4fa;
+}
+
+.acerca {
+margin: 0;
+background-color: #f0f3f5;
+}
+
+.contenedor-texto-acerca {
+  text-align: center;
+ margin: 0;
+}
+.contenedor-texto-acerca h2 {
+  font-size: 30px;
+  font-weight: 900;
+ padding-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.contenedor-texto-acerca p {
+  color: #999999;
+  padding-bottom:25px ;
+}
+.iconos{
+    padding: 35px 0;
+    
+    
+}
+
+.contenedor-iconos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.icono-individual{
+    flex: 1;
+    /* width: 33%; */
+    text-align: center;
+    margin: 20px 30px;
+   
+}
+.icono-individual h3{
+    margin: 10px;
+}
+
+
+.galeria{
+    margin: 0;
+background-color: #f0f3f5;
+}
+
+
+.contenedor-imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.contenedor-textos{
+    text-align: center;
+ margin: 0;
+    
+}
+
+.contenedor-textos h2{
+    font-size: 30px;
+  font-weight: 900;
+ padding-top: 20px;
+  margin-bottom: 20px;
+
+}
+.contenedor-textos p{
+    color: #999999;
+  padding-bottom:25px ;
+
+}
+
+
+.flex-galeria > img{
+    width: 300px;
+    height: 250px;
+    
+   margin: 10px 10px;
+   border-radius: 10px;
+   
+}
+
+.flex-galeria > img:hover{
+    opacity: .8;
+}
+
